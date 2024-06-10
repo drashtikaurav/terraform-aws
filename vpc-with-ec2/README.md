@@ -1,0 +1,1 @@
+- Created multiple AWS resources by providing CIDR values in main.tf file using variable.tf file
