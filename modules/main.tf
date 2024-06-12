@@ -4,10 +4,8 @@ provider "aws" {
 
 module "ec2" {
   source = "./resource-modules/ec2-instance"
-  # ami-id = local.ami-id
-  # instance-type = local.instance-type
-  ami-id = var.ami-id
-  instance-type = var.instance-type
+  ami-id = local.ami-id
+  instance-type = local.instance-type
 }
 
 module "s3" {
